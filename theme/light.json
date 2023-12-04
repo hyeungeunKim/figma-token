@@ -1,0 +1,42 @@
+{
+  "bg": {
+    "200": {
+      "value": "#f1f1f9",
+      "type": "color"
+    },
+    "300": {
+      "value": "#ffffff",
+      "type": "color"
+    },
+    "350": {
+      "value": "#f8f8fb",
+      "type": "color"
+    },
+    "370": {
+      "value": "#ffffff",
+      "type": "color"
+    },
+    "400": {
+      "value": "#ededf6",
+      "type": "color"
+    },
+    "500": {
+      "value": "#e1e3ef",
+      "type": "color"
+    },
+    "600": {
+      "value": "#f1f1fc",
+      "type": "color"
+    }
+  },
+  "glyphs": {
+    "100": {
+      "value": "#000000",
+      "type": "color"
+    },
+    "200": {
+      "value": "#303135",
+      "type": "color"
+    }
+  }
+}
