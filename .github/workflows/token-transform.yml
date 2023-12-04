@@ -1,6 +1,6 @@
-name: Create PR from design to main
+name: Create PR from develop to main
 
-# design 브랜치의 tokens.json 파일에 대한 push 감지
+# develop 브랜치의 tokens.json 파일에 대한 push 감지
 on:
   push:
     branches:
@@ -19,9 +19,6 @@ jobs:
       # 디자인 파일 변환 후 생성된 파일도 push해서 main 브랜치로 병합하는 PR을 생성
       - name: Run Token Transformer
         run: |
-            rm -rf theme
-            npx token-transformer tokens.json theme/core.json global
-            npx token-transformer tokens.json theme/light.json global,light global
             npx token-transformer tokens.json theme/dark.json global,dark global
             
             git config --global user.name "hyeungeunKim" 
